@@ -1,0 +1,38 @@
+
+body {
+    background-color: #ffd9bb;
+    font-family: 'Thasadith', sans-serif; /* ใช้ Thai Sarabun PSK font */
+  }
+  .container {
+    max-width: 850px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .question {
+    margin-bottom: 20px;
+  }
+  .choices label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  h2 {
+    margin-bottom: 20px;
+    color: #333; /* เปลี่ยนสีข้อความ */
+  }
+  
+  .form-control {
+    margin-bottom: 20px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* เปลี่ยนสีปุ่ม */
+    border-color: #007bff; /* เปลี่ยนสีเส้นขอบของปุ่ม */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* เปลี่ยนสีปุ่มเมื่อโฮเวอร์ */
+    border-color: #0056b3; /* เปลี่ยนสีเส้นขอบของปุ่มเมื่อโฮเวอร์ */
+  }
